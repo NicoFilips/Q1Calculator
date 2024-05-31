@@ -33,7 +33,7 @@ jobs:
       run: dotnet test --no-restore --verbosity normal --collect:"XPlat Code Coverage"
 
     - name: Pack NuGet package
-      run: dotnet pack src/bl_Q1Calculator.Core/bl_Q1Calculator.Core.csproj --configuration Release --no-build -o ./nupkg
+      run: dotnet pack src/CoreDomain/bl_Q1Calculator.Core/bl_Q1Calculator.Core.csproj --configuration Release --no-build -o ./nupkg
 
     - name: Upload NuGet package as artifact
       uses: actions/upload-artifact@v3
