@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>bl_Q1Calculator.Calc</RootNamespace>
+        <RootNamespace>bl_Q1Calculator.Core</RootNamespace>
     </PropertyGroup>
 
 </Project>
