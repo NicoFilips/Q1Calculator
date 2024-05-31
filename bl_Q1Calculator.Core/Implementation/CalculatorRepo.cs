@@ -14,7 +14,7 @@ public class CalculatorRepo : ICalculatorRepo
 
     public float Divide(float number1, float number2)
     {
-        if (number1 == 0 && number2 == 0)
+        if (number1 == 0 || number2 == 0)
             throw new DivideByZeroException("Division by zero is not allowed.");
 
         return number1 / number2;
