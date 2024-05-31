@@ -1,3 +1,4 @@
+using System.Data;
 using bl_Q1Calculator.Calc.Abstraction;
 
 namespace bl_Q1Calculator.Calc.Implementation;
@@ -17,5 +18,19 @@ public class CalculatorRepo : ICalculatorRepo
             throw new DivideByZeroException("Division by zero is not allowed.");
 
         return number1 / number2;
+    }
+    
+    public float Evaluate(string expression)
+    {
+        return (float)EvaluateExpression(expression);
+    }
+
+    private double EvaluateExpression(string expression)
+    {
+        var table = new DataTable();
+        table.Columns.Add("expression", typeof(string), expression);
+        DataRow row = table.NewRow();
+        table.Rows.Add(row);
+        return double.Parse((string)row["expression"]);
     }
 }
