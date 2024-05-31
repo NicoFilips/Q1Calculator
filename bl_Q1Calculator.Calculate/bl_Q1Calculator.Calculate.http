@@ -1,0 +1,6 @@
+@bl_Q1Calculator.Calculate_HostAddress = http://localhost:5060
+
+GET {{bl_Q1Calculator.Calculate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
