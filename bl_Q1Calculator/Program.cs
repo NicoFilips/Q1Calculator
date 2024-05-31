@@ -47,6 +47,13 @@ app.MapGet("/multiply", (float number1, float number2, ICalculatorRepo calculato
     })
     .WithOpenApi();
 
+app.MapGet("/evaluate", (string calculation, ICalculatorRepo calculatorRepo) =>
+    {
+        float result = calculatorRepo.Evaluate(calculation);
+        return Results.Ok(result);
+    })
+    .WithOpenApi();
+
 // ----------------------------------------
 
 
