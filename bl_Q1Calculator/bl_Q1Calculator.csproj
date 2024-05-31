@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\bl_Q1Calculator.Calc\bl_Q1Calculator.Calc.csproj" />
+      <ProjectReference Include="..\bl_Q1Calculator.Core\bl_Q1Calculator.Core.csproj" />
     </ItemGroup>
 
 </Project>

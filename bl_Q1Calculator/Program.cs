@@ -17,31 +17,37 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+// -------------------- Endpunkte --------------------
 
-app.MapGet("/weatherforecast", () =>
+app.MapGet("/add", (float number1, float number2, ICalculatorRepo calculatorRepo) =>
     {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
+        float result = calculatorRepo.Add(number1, number2);
+        return Results.Ok(result);
     })
-    .WithName("GetWeatherForecast")
     .WithOpenApi();
 
+app.MapGet("/subtract", (float number1, float number2, ICalculatorRepo calculatorRepo) =>
+    {
+        float result = calculatorRepo.Subtract(number1, number2);
+        return Results.Ok(result);
+    })
+    .WithOpenApi();
+
+app.MapGet("/divide", (float number1, float number2, ICalculatorRepo calculatorRepo) =>
+    {
+        float result = calculatorRepo.Divide(number1, number2);
+        return Results.Ok(result);
+    })
+    .WithOpenApi();
+
+app.MapGet("/multiply", (float number1, float number2, ICalculatorRepo calculatorRepo) =>
+    {
+        float result = calculatorRepo.Multiply(number1, number2);
+        return Results.Ok(result);
+    })
+    .WithOpenApi();
+
+// ----------------------------------------
 
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
