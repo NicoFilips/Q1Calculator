@@ -1,9 +1,9 @@
-    using bl_Q1Calculator.Calc.Abstraction;
-    using bl_Q1Calculator.Calc.Implementation;
-    using NUnit.Framework;
+using bl_Q1Calculator.Calc.Abstraction;
+using bl_Q1Calculator.Calc.Implementation;
+using NUnit.Framework;
 using FluentAssertions;
 
-    namespace bl_Q1Calculator.tests;
+namespace bl_Q1Calculator.tests;
 
 [TestFixture]
 public class EvaluateTests
