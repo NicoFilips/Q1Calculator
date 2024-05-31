@@ -9,7 +9,7 @@
     <InputNumber @bind-Value="number1" /> <br />
     <InputNumber @bind-Value="number2" /> <br />
     
-    <button @onclick="() => SetOperator("+")">+</button>
+    <button @onclick="() => SetOperator('+')">+</button>
     <button @onclick="() => SetOperator('-')">-</button>
     <button @onclick="() => SetOperator('*')">*</button>
     <button @onclick="() => SetOperator('/')">/</button>
@@ -25,32 +25,29 @@
     private string selectedOperator;
     private string display;
 
-    private void SetOperator(string op)
+    private void SetOperator(char op)
     {
-        selectedOperator = op;
+        selectedOperator = op.ToString();
     }
 
     private void Calculate()
     {
+        //Todo: Call Backends
         switch (selectedOperator)
         {
             case "+":
-                display = (number1 + number2).ToString(CultureInfo.InvariantCulture);
+                
                 break;
             case "-":
-                display = (number1 - number2).ToString(CultureInfo.InvariantCulture);
+                
                 break;
             case "*":
-                display = (number1 * number2).ToString(CultureInfo.InvariantCulture);
+                
                 break;
             case "/":
-                if (number2 != 0)
-                    display = (number1 / number2).ToString(CultureInfo.InvariantCulture);
-                else
-                    display = "Error";
                 break;
             default:
-                display = "Select an operator";
+                
                 break;
         }
     }
