@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace bl_Q1Calculator.Calc.Abstraction;
+namespace bl_Q1Calculator.Core.Abstraction;
 
 public interface ICalculatorRepo
 {

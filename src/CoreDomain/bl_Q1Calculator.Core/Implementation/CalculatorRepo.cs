@@ -1,7 +1,7 @@
 using System.Data;
-using bl_Q1Calculator.Calc.Abstraction;
+using bl_Q1Calculator.Core.Abstraction;
 
-namespace bl_Q1Calculator.Calc.Implementation;
+namespace bl_Q1Calculator.Core.Implementation;
 
 public class CalculatorRepo : ICalculatorRepo
 {

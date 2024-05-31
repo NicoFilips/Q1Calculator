@@ -1,23 +1,57 @@
-﻿@inherits LayoutComponentBase
+﻿@page "/"
+@using System.Globalization
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu/>
-    </div>
+<PageTitle>Calculator</PageTitle>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
+<h3>Calculator</h3>
 
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+<div>
+    <InputNumber @bind-Value="number1" /> <br />
+    <InputNumber @bind-Value="number2" /> <br />
+    
+    <button @onclick="() => SetOperator("+")">+</button>
+    <button @onclick="() => SetOperator('-')">-</button>
+    <button @onclick="() => SetOperator('*')">*</button>
+    <button @onclick="() => SetOperator('/')">/</button>
+    
+    <button @onclick="Calculate">=</button>
+    
+    <Display Value="@display" />
 </div>
 
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div>
+@code {
+    private double number1;
+    private double number2;
+    private string selectedOperator;
+    private string display;
+
+    private void SetOperator(string op)
+    {
+        selectedOperator = op;
+    }
+
+    private void Calculate()
+    {
+        switch (selectedOperator)
+        {
+            case "+":
+                display = (number1 + number2).ToString(CultureInfo.InvariantCulture);
+                break;
+            case "-":
+                display = (number1 - number2).ToString(CultureInfo.InvariantCulture);
+                break;
+            case "*":
+                display = (number1 * number2).ToString(CultureInfo.InvariantCulture);
+                break;
+            case "/":
+                if (number2 != 0)
+                    display = (number1 / number2).ToString(CultureInfo.InvariantCulture);
+                else
+                    display = "Error";
+                break;
+            default:
+                display = "Select an operator";
+                break;
+        }
+    }
+}

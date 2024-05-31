@@ -1,5 +1,5 @@
-using bl_Q1Calculator.Calc.Abstraction;
-using bl_Q1Calculator.Calc.Implementation;
+using bl_Q1Calculator.Core.Abstraction;
+using bl_Q1Calculator.Core.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
