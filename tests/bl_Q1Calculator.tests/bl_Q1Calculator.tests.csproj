@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\CoreDomain\bl_Q1Calculator.Core\bl_Q1Calculator.Core.csproj" />
+      <ProjectReference Include="..\..\src\CoreDomain\Q1Calculator.Core\Q1Calculator.Core.csproj" />
     </ItemGroup>
 
 </Project>

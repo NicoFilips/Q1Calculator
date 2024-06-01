@@ -1,0 +1,29 @@
+﻿@using Q1Calculator.UI.Components.Calculator;
+@using MudBlazor
+
+<MudLayout>
+
+    <MudGrid>
+        <MudItem xs="12">
+            <Display Value="@DisplayValue"/>
+        </MudItem>
+        @for (int i = 1; i <= 9; i++)
+        {
+            <MudItem xs="4">
+                <NumberButton Number="@i" OnNumberClick="AppendNumber"/>
+            </MudItem>
+        }
+        <MudItem xs="4">
+            <OperationButton Operation="+" OnOperationClick="PerformOperation"/>
+        </MudItem>
+        <MudItem xs="4">
+            <OperationButton Operation="-" OnOperationClick="PerformOperation"/>
+        </MudItem>
+        <MudItem xs="4">
+            <OperationButton Operation="*" OnOperationClick="PerformOperation"/>
+        </MudItem>
+        <MudItem xs="4">
+            <OperationButton Operation="/" OnOperationClick="PerformOperation"/>
+        </MudItem>
+    </MudGrid>
+</MudLayout>
