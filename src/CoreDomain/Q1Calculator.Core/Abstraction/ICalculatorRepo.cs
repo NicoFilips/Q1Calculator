@@ -1,6 +1,4 @@
-using System.Numerics;
-
-namespace bl_Q1Calculator.Core.Abstraction;
+namespace Q1Calculator.Core.Abstraction;
 
 public interface ICalculatorRepo
 {
@@ -9,4 +7,5 @@ public interface ICalculatorRepo
         public float Subtract(float number1, float number2);
         public float Divide(float number1, float number2);
         public float Evaluate(string expression);
+        public double EvaluateExpressionProgrammatically(string expression);
 }

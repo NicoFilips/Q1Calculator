@@ -1,3 +1,4 @@
+using MudBlazor.Services;
 using Q1Calculator.UI.Helpers;
 using Photino.Blazor;
 using Q1Calculator.UI.Components;
@@ -22,8 +23,10 @@ public class Program
         }
 
         var builder = PhotinoBlazorAppBuilder.CreateDefault(args);
-
+        builder.Services.AddRazorComponents();
         builder.RootComponents.Add<Main>("body");
+
+        builder.Services.AddMudServices();
 
         PhotinoBlazorApp app = builder.Build();
 

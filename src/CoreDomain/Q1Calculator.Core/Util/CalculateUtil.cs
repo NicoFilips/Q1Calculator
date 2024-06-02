@@ -1,2 +1,1 @@
-namespace bl_Q1Calculator.Calc.Util;
- 
+namespace Q1Calculator.Core.Util;

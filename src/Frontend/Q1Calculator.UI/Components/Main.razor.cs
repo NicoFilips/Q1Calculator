@@ -1,5 +1,6 @@
 ﻿using JetBrains.Annotations;
 using Microsoft.AspNetCore.Components;
+using Q1Calculator.UI.Components.View;
 
 namespace Q1Calculator.UI.Components;
 
@@ -7,6 +8,8 @@ namespace Q1Calculator.UI.Components;
 public partial class Main : IDisposable
 {
     private string DisplayValue { get; set; } = "";
+
+    public Type View { get; private set; } = typeof(Calculator);
 
     private void AppendNumber(int number)
     {

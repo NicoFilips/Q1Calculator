@@ -1,5 +1,5 @@
-using bl_Q1Calculator.Core.Abstraction;
-using bl_Q1Calculator.Core.Implementation;
+using Q1Calculator.Core.Abstraction;
+using Q1Calculator.Core.Implementation;
 using FluentAssertions;
 using NUnit.Framework;
 using Moq;

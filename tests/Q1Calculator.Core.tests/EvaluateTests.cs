@@ -1,5 +1,5 @@
-using bl_Q1Calculator.Core.Abstraction;
-using bl_Q1Calculator.Core.Implementation;
+using Q1Calculator.Core.Abstraction;
+using Q1Calculator.Core.Implementation;
 using NUnit.Framework;
 using FluentAssertions;
 
@@ -122,5 +122,29 @@ public class EvaluateTests
 
         // Assert
         result.Should().Be(5);
+    }
+
+    [Test]
+    [TestCase("3 + 5", 8)]
+    [TestCase("(1 + 2) * 3", 9)]
+    [TestCase("5 / (2 - 1)", 5)]
+    [TestCase("4 * (3 + 2) - 7", 13)]
+    [TestCase("10 / 2 + 3 * (2 - 1)", 8)]
+    public void EvaluateExpressionProgrammatically_ValidExpressions_ReturnsExpectedResults(string expression, double expected)
+    {
+        double result = _calculatorRepo.EvaluateExpressionProgrammatically(expression);
+        result.Should().BeApproximately(expected, 1e-5);
+    }
+
+    [Test]
+    [TestCase("3 ++ 5")]
+    [TestCase("3 ** 5")]
+    [TestCase("3 // 5")]
+    [TestCase("(3 + 5")]
+    [TestCase("3 + 5)")]
+    public void EvaluateExpressionProgrammatically_InvalidExpressions_ThrowsException(string expression)
+    {
+        Action act = () => _calculatorRepo.EvaluateExpressionProgrammatically(expression);
+        act.Should().Throw<ArgumentException>();
     }
 }

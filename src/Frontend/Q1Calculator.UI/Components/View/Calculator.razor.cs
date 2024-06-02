@@ -1,22 +1,9 @@
-﻿@using MudBlazor
+﻿using Microsoft.AspNetCore.Components;
 
-<MudGrid>
-    <MudItem xs="12">
-        <Display @bind-Value="DisplayValue" ValueChanged="OnDisplayValueChanged"  />
-    </MudItem>
-    @for (int i = 1; i <= 9; i++)
-    {
-        <MudItem xs="4">
-            <MudNumberButton Number="@i" OnClick="AppendNumber" />
-        </MudItem>
-    }
-    <MudItem xs="4"><OperationButton Operation="+" OnClick="PerformOperation" /></MudItem>
-    <MudItem xs="4"><OperationButton Operation="-" OnClick="PerformOperation" /></MudItem>
-    <MudItem xs="4"><OperationButton Operation="*" OnClick="PerformOperation" /></MudItem>
-    <MudItem xs="4"><OperationButton Operation="/" OnClick="PerformOperation" /></MudItem>
-</MudGrid>
+namespace Q1Calculator.UI.Components.View;
 
-@code {
+public partial class Calculator : ComponentBase, IDisposable
+{
     private string DisplayValue { get; set; } = "";
 
     private void AppendNumber(int number)
@@ -38,4 +25,6 @@
         // This is just a placeholder for the actual API call
         return Task.FromResult(0.0);
     }
+
+    public void Dispose() => GC.SuppressFinalize(this);
 }
