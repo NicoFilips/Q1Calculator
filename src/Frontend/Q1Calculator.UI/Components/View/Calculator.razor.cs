@@ -2,7 +2,7 @@
 
 namespace Q1Calculator.UI.Components.View;
 
-public partial class Calculator : ComponentBase, IDisposable
+public partial class Calculator : IDisposable
 {
     private string DisplayValue { get; set; } = "";
 
@@ -11,10 +11,19 @@ public partial class Calculator : ComponentBase, IDisposable
         DisplayValue += number.ToString();
     }
 
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        DisplayValue = "0";
+    }
+
+    private async Task StateHasChangedAsync() => await InvokeAsync(StateHasChanged);
+
+
+
     private async Task PerformOperation(string operation)
     {
-        // Implement logic to call REST API with the current numbers and the selected operation
-        // For demonstration purposes, this is a placeholder
+        //Todo add API Call
         var result = await CallApi(DisplayValue, operation);
         DisplayValue = result.ToString();
     }

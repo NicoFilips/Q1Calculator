@@ -31,5 +31,21 @@ public partial class Main : IDisposable
         return Task.FromResult(0.0);
     }
 
+    public void SetView<T>()
+    {
+        View = typeof(T);
+        StateHasChangedAsync();
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        SetView<Calculator>();
+    }
+
     public void Dispose() => GC.SuppressFinalize(this);
+
+    public new void InvokeAsync(Action action) => base.InvokeAsync(action);
+
+    private async Task StateHasChangedAsync() => await base.InvokeAsync(StateHasChanged);
 }

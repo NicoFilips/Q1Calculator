@@ -1,48 +1,74 @@
 ﻿@using MudBlazor
 @using Q1Calculator.UI.Components.Library
+@inherits LayoutComponentBase
 
-<MudGrid>
-    <MudItem xs="12">
-        <Display @bind-Value="DisplayValue" />
-    </MudItem>
-    @for (int i = 1; i <= 9; i++)
-    {
-        <MudItem xs="4">
-            <MudNumberButton Number="@i" OnClick="AppendNumber" />
-        </MudItem>
-    }
-    <MudItem xs="4"><OperationButton Operation="+" OnClick="PerformOperation" /></MudItem>
-    <MudItem xs="4"><OperationButton Operation="-" OnClick="PerformOperation" /></MudItem>
-    <MudItem xs="4"><OperationButton Operation="*" OnClick="PerformOperation" /></MudItem>
-    <MudItem xs="4"><OperationButton Operation="/" OnClick="PerformOperation" /></MudItem>
+<MudThemeProvider/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
 
 
+<MudLayout>
+    <MudAppBar>
+        My Application
+    </MudAppBar>
+    <MudDrawer Open="true">
 
-    <MudLayout>
+    </MudDrawer>
+    <MudMainContent>
+        @Body
+    </MudMainContent>
+</MudLayout>
 
-        <MudGrid>
-            <MudItem xs="12">
-                <Display Value="@DisplayValue"/>
-            </MudItem>
-            @for (int i = 1; i <= 9; i++)
-            {
-                <MudItem xs="4">
-                    <NumberButton Number="@i" OnNumberClick="AppendNumber"/>
-                </MudItem>
-            }
-            <MudItem xs="4">
-                <OperationButton Operation="+" OnOperationClick="PerformOperation"/>
-            </MudItem>
-            <MudItem xs="4">
-                <OperationButton Operation="-" OnOperationClick="PerformOperation"/>
-            </MudItem>
-            <MudItem xs="4">
-                <OperationButton Operation="*" OnOperationClick="PerformOperation"/>
-            </MudItem>
-            <MudItem xs="4">
-                <OperationButton Operation="/" OnOperationClick="PerformOperation"/>
-            </MudItem>
-        </MudGrid>
-    </MudLayout>
 
-</MudGrid>
+@* <MudText>a</MudText> *@
+@* <MudGrid> *@
+@*     <MudButton>OK</MudButton> *@
+@*     <MudContainer MaxWidth="MaxWidth.Small" Class="ma-auto mt-10"> *@
+@*         <MudGrid> *@
+@*             <MudItem xs="12"> *@
+@*                 <MudText>hi</MudText> *@
+@*                 $1$ <CalculatorDisplay Value="@DisplayValue"/> #1# *@
+@*             </MudItem> *@
+@*             <!-- Weitere Calculator Buttons hier hinzufügen --> *@
+@*         </MudGrid> *@
+@*     </MudContainer> *@
+    @* <MudItem xs="12"> *@
+    @*     <Display  @bind-Value="DisplayValue" /> *@
+    @* </MudItem> *@
+    @* @for (int i = 1; i <= 9; i++) *@
+    @* { *@
+    @*     <MudItem xs="4"> *@
+    @*         <MudNumberButton Number="@i" OnClick="AppendNumber" /> *@
+    @*     </MudItem> *@
+    @* } *@
+    @* <MudItem xs="4"><OperationButton Operation="+" OnClick="PerformOperation" /></MudItem> *@
+    @* <MudItem xs="4"><OperationButton Operation="-" OnClick="PerformOperation" /></MudItem> *@
+    @* <MudItem xs="4"><OperationButton Operation="*" OnClick="PerformOperation" /></MudItem> *@
+    @* <MudItem xs="4"><OperationButton Operation="/" OnClick="PerformOperation" /></MudItem> *@
+    @* *@
+    @* <MudLayout> *@
+    @*     <MudGrid> *@
+    @*         $1$ <MudItem xs="12"> #1# *@
+    @*         $1$     <Display Value="@DisplayValue"/> #1# *@
+    @*         $1$ </MudItem> #1# *@
+    @*         @for (int i = 1; i <= 9; i++) *@
+    @*         { *@
+    @*             <MudItem xs="4"> *@
+    @*                 <NumberButton Number="@i" OnNumberClick="AppendNumber"/> *@
+    @*             </MudItem> *@
+    @*         } *@
+    @*         <MudItem xs="4"> *@
+    @*             <MudButton Operation="+" OnOperationClick="PerformOperation"/> *@
+    @*         </MudItem> *@
+    @*         <MudItem xs="4"> *@
+    @*             <MudButton Operation="-" OnOperationClick="PerformOperation"/> *@
+    @*         </MudItem> *@
+    @*         <MudItem xs="4"> *@
+    @*             <MudButton Operation="*" OnOperationClick="PerformOperation"/> *@
+    @*         </MudItem> *@
+    @*         <MudItem xs="4"> *@
+    @*             <MudButton Operation="/" OnOperationClick="PerformOperation"/> *@
+    @*         </MudItem> *@
+    @*     </MudGrid> *@
+    @* </MudLayout> *@
+

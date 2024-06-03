@@ -21,7 +21,7 @@
       "Run": {
         "commandName": "Project",
         "dotnetRunMessages": true,
-        "launchBrowser": true,
+        "hotReloadEnabled": true,
         "hotReloadProfile": "aspnetcore",
         "workingDirectory": "$(ProjectDir)",
         "environmentVariables": {
