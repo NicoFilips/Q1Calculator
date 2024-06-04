@@ -1,0 +1,9 @@
+﻿@using MudBlazor
+
+<MudGrid>
+    <MudItem xs="12"><MudButton Variant="Variant.Filled" Color="Color.Secondary" Size="Size.Large" OnClick="@(() => OperatorClicked("+"))">+</MudButton></MudItem>
+    <MudItem xs="12"><MudButton Variant="Variant.Filled" Color="Color.Secondary" Size="Size.Large" OnClick="@(() => OperatorClicked("-"))">-</MudButton></MudItem>
+    <MudItem xs="12"><MudButton Variant="Variant.Filled" Color="Color.Secondary" Size="Size.Large" OnClick="@(() => OperatorClicked("*"))">*</MudButton></MudItem>
+    <MudItem xs="12"><MudButton Variant="Variant.Filled" Color="Color.Secondary" Size="Size.Large" OnClick="@(() => OperatorClicked("/"))">/</MudButton></MudItem>
+</MudGrid>
+

@@ -1,0 +1,35 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = fe_Q1Calculator
+build_property.RootNamespace = fe_Q1Calculator
+build_property.ProjectDir = C:\Users\busin\source\repos\bl_Q1Calculator\src\frontend\fe_Q1Calculator\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\busin\source\repos\bl_Q1Calculator\src\frontend\fe_Q1Calculator
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/busin/source/repos/bl_Q1Calculator/src/frontend/fe_Q1Calculator/Components/Calculator/Display.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYWxjdWxhdG9yXERpc3BsYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/busin/source/repos/bl_Q1Calculator/src/frontend/fe_Q1Calculator/Components/Calculator/InputNumber.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYWxjdWxhdG9yXElucHV0TnVtYmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/busin/source/repos/bl_Q1Calculator/src/frontend/fe_Q1Calculator/Components/Main.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/busin/source/repos/bl_Q1Calculator/src/frontend/fe_Q1Calculator/Components/_imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfaW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 

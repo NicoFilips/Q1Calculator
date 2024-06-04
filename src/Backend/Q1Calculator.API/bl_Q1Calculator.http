@@ -1,73 +1,71 @@
-@bl_Q1Calculator_HostAddress = http://localhost:5095
-
 # Add operation (HTTP)
-GET http://localhost:34036/add?number1=5&number2=3
+GET http://localhost:5095/add?number1=5&number2=3
 Accept: application/json
 
 ###
 
 # Add operation (HTTPS)
-GET https://localhost:44374/add?number1=5&number2=3
+GET https://localhost:7260/add?number1=5&number2=3
 Accept: application/json
 
 ###
 
 # Subtract operation (HTTP)
-GET http://localhost:34036/subtract?number1=5&number2=3
+GET http://localhost:5095/subtract?number1=5&number2=3
 Accept: application/json
 
 ###
 
 # Subtract operation (HTTPS)
-GET https://localhost:44374/subtract?number1=5&number2=3
+GET https://localhost:7260/subtract?number1=5&number2=3
 Accept: application/json
 
 ###
 
 # Multiply operation (HTTP)
-GET http://localhost:34036/multiply?number1=5&number2=3
+GET http://localhost:5095/multiply?number1=5&number2=3
 Accept: application/json
 
 ###
 
 # Multiply operation (HTTPS)
-GET https://localhost:44374/multiply?number1=5&number2=3
+GET https://localhost:7260/multiply?number1=5&number2=3
 Accept: application/json
 
 ###
 
 # Divide operation (HTTP)
-GET http://localhost:34036/divide?number1=6&number2=3
+GET http://localhost:5095/divide?number1=6&number2=3
 Accept: application/json
 
 ###
 
 # Divide operation (HTTPS)
-GET https://localhost:44374/divide?number1=6&number2=3
+GET http://localhost:7260/divide?number1=6&number2=3
 Accept: application/json
 
 ###
 
 # Divide by zero (should return error) (HTTP)
-GET http://localhost:34036/divide?number1=6&number2=0
+GET http://localhost:5095/divide?number1=6&number2=0
 Accept: application/json
 
 ###
 
 # Divide by zero (should return error) (HTTPS)
-GET https://localhost:44374/divide?number1=6&number2=0
+GET https://localhost:7260/divide?number1=6&number2=0
 Accept: application/json
 
 ###
 
 # Evaluate (should return the correct result) (HTTP)
-GET http://localhost:34036/evaluate?string="24+3-5(2-3)?=)/2"
+GET http://localhost:5095/evaluate?string="24+3-5(2-3)?=)/2"
 Accept: application/json
 
 ###
 
 # Evaluate (should return the correct result) (HTTPS)
-GET https://localhost:44374/evaluate?string="24+3-5(2-3)?=)/2"
+GET https://localhost:7260/evaluate?string="24+3-5(2-3)?=)/2"
 Accept: application/json
 
 

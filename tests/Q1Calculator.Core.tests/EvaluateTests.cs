@@ -76,7 +76,7 @@ public class EvaluateTests
     public void Evaluate_ShouldReturnCorrectResult_ForSimpleExpression()
     {
         // Arrange
-        string expression = "3 + 5";
+        string expression = "3+5";
 
         // Act
         float result = _calculatorRepo.Evaluate(expression);
@@ -89,7 +89,7 @@ public class EvaluateTests
     public void Evaluate_ShouldReturnCorrectResult_ForComplexExpression()
     {
         // Arrange
-        string expression = "2 + 3 * 4";
+        string expression = "2+3*4";
 
         // Act
         float result = _calculatorRepo.Evaluate(expression);
@@ -102,7 +102,7 @@ public class EvaluateTests
     public void Evaluate_ShouldReturnCorrectResult_ForExpressionWithParentheses()
     {
         // Arrange
-        string expression = "(2 + 3) * 4";
+        string expression = "(2+3)*4";
 
         // Act
         float result = _calculatorRepo.Evaluate(expression);
@@ -115,7 +115,7 @@ public class EvaluateTests
     public void Evaluate_ShouldReturnCorrectResult_ForExpressionWithDivision()
     {
         // Arrange
-        string expression = "20 / 4";
+        string expression = "20/4";
 
         // Act
         float result = _calculatorRepo.Evaluate(expression);
@@ -125,11 +125,11 @@ public class EvaluateTests
     }
 
     [Test]
-    [TestCase("3 + 5", 8)]
-    [TestCase("(1 + 2) * 3", 9)]
-    [TestCase("5 / (2 - 1)", 5)]
-    [TestCase("4 * (3 + 2) - 7", 13)]
-    [TestCase("10 / 2 + 3 * (2 - 1)", 8)]
+    [TestCase("3+5", 8)]
+    [TestCase("(1+2)*3", 9)]
+    [TestCase("5/(2-1)", 5)]
+    [TestCase("4*(3+2)-7", 13)]
+    [TestCase("10/2+3*(2-1)", 8)]
     public void EvaluateExpressionProgrammatically_ValidExpressions_ReturnsExpectedResults(string expression, double expected)
     {
         double result = _calculatorRepo.EvaluateExpressionProgrammatically(expression);
@@ -137,7 +137,7 @@ public class EvaluateTests
     }
 
     [Test]
-    [TestCase("3 ++ 5")]
+    [TestCase("3++5")]
     [TestCase("3 ** 5")]
     [TestCase("3 // 5")]
     [TestCase("(3 + 5")]

@@ -5,8 +5,8 @@ namespace Q1Calculator.UI.Helpers;
 
 public static class Window
 {
-    public const int MinWidth = 600;
-    public const int MinHeight = 750;
+    public const int MinWidth = 400;
+    public const int MinHeight = 520;
 
     private const int SW_RESTORE = 9;
 

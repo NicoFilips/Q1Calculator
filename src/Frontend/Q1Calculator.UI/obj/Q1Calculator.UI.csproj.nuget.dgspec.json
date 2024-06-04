@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj",
+        "projectName": "Q1Calculator.UI",
+        "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj",
+        "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CodeBeam.MudBlazor.Extensions": {
+              "target": "Package",
+              "version": "[6.9.2, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2023.3.0, )"
+            },
+            "JsonPath.Net": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.19.1, )"
+            },
+            "Photino.Blazor": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "PolySharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

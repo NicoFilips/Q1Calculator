@@ -28,6 +28,7 @@ public class CalculatorRepo : ICalculatorRepo
 
     private double EvaluateExpression(string expression)
     {
+        expression = expression.Replace(" ", "+");
         var table = new DataTable();
         table.Columns.Add("expression", typeof(string), expression);
         DataRow row = table.NewRow();

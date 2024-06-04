@@ -1,12 +1,12 @@
 ﻿@page "/"
 @using MudBlazor
 @using Q1Calculator.UI.Components.View
+@using Q1Calculator.UI.Components.Library
 
 <MudContainer MaxWidth="MaxWidth.Small" Class="ma-auto mt-10">
     <MudGrid>
         <MudItem xs="12">
-            <CalculatorDisplay Value="@DisplayValue" />
+            <Calculator/>
         </MudItem>
-        <!-- Weitere Calculator Buttons hier hinzufügen -->
     </MudGrid>
 </MudContainer>
