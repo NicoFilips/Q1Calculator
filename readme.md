@@ -18,7 +18,6 @@
 - Refactoren
 
 # Bugs & Lesson learned: 
-- Man gewöhnt sich an das schweizer Tastaturlayout einigermaßen schnell 
 - HTTP Parameter machen aus einem "+" ein Leerzeichen -> URL Encoding
 - Wenn man eine Clientapp konfiguriert, sollte man den Host nicht mit SSR verwenden, da sonst kein HTML mehr ausgeliefert wird
 
