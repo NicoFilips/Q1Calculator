@@ -20,9 +20,3 @@
 # Bugs & Lesson learned: 
 - HTTP Parameter machen aus einem "+" ein Leerzeichen -> URL Encoding
 - Wenn man eine Clientapp konfiguriert, sollte man den Host nicht mit SSR verwenden, da sonst kein HTML mehr ausgeliefert wird
-
-### Launch Profile:
-![img.png](img.png)
-
-### Tests:
-![img_1.png](img_1.png)
