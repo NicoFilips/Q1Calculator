@@ -1,12 +1,14 @@
 <MudItem xs="12">
     <MudGrid>
-        <MudItem xs="9">
+        <MudItem xs="8">
             <MudPaper Class="pa-5 ma-5" Elevation="3">
                 <MudText Class="fixed-size" Typo="Typo.h6" Align="Align.Right">@DisplayValue</MudText>
             </MudPaper>
         </MudItem>
         <MudItem xs="3">
-            <MudButton Class="fixed-size" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Small" EndIcon="@Icons.Material.Filled.Send" OnClick="@EnterClicked">Go</MudButton>
+            <MudGrid Class="mt-10">
+                <MudButton Class="fixed-size" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Small" EndIcon="@Icons.Material.Filled.Send" OnClick="@EnterClicked">Go</MudButton>
+            </MudGrid>
         </MudItem>
     </MudGrid>
 </MudItem>
