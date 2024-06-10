@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\fe_Q1Calculator.props" />
-</Project>
