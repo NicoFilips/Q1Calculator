@@ -1,3 +1,4 @@
+using Q1Calculator.API.Host.RequestLogging;
 using Q1Calculator.Core.Abstraction;
 using Q1Calculator.Core.Implementation;
 
@@ -22,6 +23,7 @@ public class Program
         }
 
         app.UseHttpsRedirection();
+        app.UseRequestLogging();
 
 // -------------------- Endpunkte --------------------
 
