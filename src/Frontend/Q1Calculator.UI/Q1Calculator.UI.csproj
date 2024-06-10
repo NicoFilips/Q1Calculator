@@ -39,4 +39,8 @@
     <Content Include="wwwroot\Icons\icon.svg"/>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Icons\" />
+  </ItemGroup>
+
 </Project>

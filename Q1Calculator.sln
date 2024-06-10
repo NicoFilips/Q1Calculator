@@ -20,12 +20,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q1Calculator.UI", "src\Fron
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q1Calculator.API.tests", "tests\Q1Calculator.API.tests\Q1Calculator.API.tests.csproj", "{B2C27291-B8A4-4915-A825-32DEEF176A85}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".repo", ".repo", "{FE743A86-E55E-43CD-8A0A-5BB74984100F}"
-	ProjectSection(SolutionItems) = preProject
-		.repo\img.png = .repo\img.png
-		.repo\img_1.png = .repo\img_1.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
