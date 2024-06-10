@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cxaaBLK1bjOtWQ4jnYY4/jjyiizWGlEpiXuR4uSjtr5ZzoWtQuip6642t41tTSkR/Somo48cxT8QAMDsb2vySA==",
+  "dgSpecHash": "nVRXVJAKV6/m1nBvR7ePsdNyzzD2JpfvX7P+PpJW3+H5xFdAcNxyRXx43CzfxE8Bqai21JjXLYqqHBKuCZ/DbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\tests\\Q1Calculator.Core.tests\\Q1Calculator.Core.tests.csproj",
+  "projectFilePath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\tests\\Q1Calculator.Core.tests\\Q1Calculator.Core.tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\busin\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\busin\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

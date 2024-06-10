@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6UQJAv1Je5grCdjmghNXkrHGLreZVTcXRd6s7lVMdcLIoEyrOH+/Kw5Atbmb5FpJ/uZ50DXM3Ewn1m7SOUBbsw==",
+  "dgSpecHash": "nd/msL2/SZzP07D26Mz+/pJMvJP/o+FvdHXY70Ofa92+qWHmzQfOougXG/YTHWT3A9qvilDtXruHmrCn1GSwXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj",
+  "projectFilePath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\busin\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\busin\\.nuget\\packages\\codebeam.mudblazor.extensions\\6.9.2\\codebeam.mudblazor.extensions.6.9.2.nupkg.sha512",

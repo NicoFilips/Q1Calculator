@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Q1Calculator.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82312841fc7235d8abbd2d2164ea33715236c56e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d3742f1a8631001e459d40a141ce49cc5f85757")]
 [assembly: System.Reflection.AssemblyProductAttribute("Q1Calculator.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Q1Calculator.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

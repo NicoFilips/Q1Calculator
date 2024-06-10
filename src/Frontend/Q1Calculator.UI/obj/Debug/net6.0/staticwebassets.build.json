@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d52xbmJXdJ1Tr10ACdOLi/itFoEAND/Z+1Gvz9dvXa0=",
+  "Hash": "WB1LOYmkramwn5nsZrIy2/9RKRobCFFTPXTeLE44tls=",
   "Source": "Q1Calculator.UI",
   "BasePath": "_content/Q1Calculator.UI",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Q1Calculator.UI\\wwwroot",
       "Source": "Q1Calculator.UI",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "Pattern": "**"
     }
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "C:\\Users\\busin\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Q1Calculator.UI.styles.css",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Q1Calculator.UI.styles.css",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "Q1Calculator.UI.styles.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Q1Calculator.UI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Q1Calculator.UI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Q1Calculator.UI.bundle.scp.css",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Q1Calculator.UI.bundle.scp.css",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "Q1Calculator.UI.bundle.scp.css",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Q1Calculator.UI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Q1Calculator.UI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\app.css",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\favicon.png",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\icons\\calculator.ico",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\icons\\calculator.ico",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "icons/calculator.ico",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\calculator.ico"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\Icons\\icon.svg",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\Icons\\icon.svg",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "Icons/icon.svg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Icons\\icon.svg"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\index.html",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\site.css",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\site.css",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "site.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\site.css"
     },
     {
-      "Identity": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\styles.css",
+      "Identity": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\styles.css",
       "SourceId": "Q1Calculator.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\",
       "BasePath": "_content/Q1Calculator.UI",
       "RelativePath": "styles.css",
       "AssetKind": "All",

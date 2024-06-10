@@ -9,7 +9,7 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Q1Calculator.UI
 build_property.RootNamespace = Q1Calculator.UI
-build_property.ProjectDir = C:\Users\busin\source\repos\bl_Q1Calculator\src\Frontend\Q1Calculator.UI\
+build_property.ProjectDir = C:\Users\busin\Desktop\test\Q1Calculator\src\Frontend\Q1Calculator.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.PolySharpUsePublicAccessibilityForGeneratedTypes = 
@@ -21,33 +21,33 @@ build_property.PolySharpExcludeTypeForwardedToDeclarations =
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\busin\source\repos\bl_Q1Calculator\src\Frontend\Q1Calculator.UI
+build_property.MSBuildProjectDirectory = C:\Users\busin\Desktop\test\Q1Calculator\src\Frontend\Q1Calculator.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/busin/source/repos/bl_Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Library/Footer.razor]
+[C:/Users/busin/Desktop/test/Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Library/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaWJyYXJ5XEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/busin/source/repos/bl_Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Library/Numpad.razor]
+[C:/Users/busin/Desktop/test/Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Library/Numpad.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaWJyYXJ5XE51bXBhZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/busin/source/repos/bl_Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Library/Operator.razor]
+[C:/Users/busin/Desktop/test/Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Library/Operator.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaWJyYXJ5XE9wZXJhdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/busin/source/repos/bl_Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Main.razor]
+[C:/Users/busin/Desktop/test/Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Main.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWluLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/busin/source/repos/bl_Q1Calculator/src/Frontend/Q1Calculator.UI/Components/View/Calculator.razor]
+[C:/Users/busin/Desktop/test/Q1Calculator/src/Frontend/Q1Calculator.UI/Components/View/Calculator.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xWaWV3XENhbGN1bGF0b3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/busin/source/repos/bl_Q1Calculator/src/Frontend/Q1Calculator.UI/_imports.razor]
+[C:/Users/busin/Desktop/test/Q1Calculator/src/Frontend/Q1Calculator.UI/_imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X2ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/busin/source/repos/bl_Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Library/CalculatorDisplay.razor]
+[C:/Users/busin/Desktop/test/Q1Calculator/src/Frontend/Q1Calculator.UI/Components/Library/CalculatorDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaWJyYXJ5XENhbGN1bGF0b3JEaXNwbGF5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-1lwxp7qk0w

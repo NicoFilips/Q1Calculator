@@ -1296,11 +1296,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\tests\\Q1Calculator.Core.tests\\Q1Calculator.Core.tests.csproj",
+      "projectUniqueName": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\tests\\Q1Calculator.Core.tests\\Q1Calculator.Core.tests.csproj",
       "projectName": "Q1Calculator.Core.tests",
-      "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\tests\\Q1Calculator.Core.tests\\Q1Calculator.Core.tests.csproj",
+      "projectPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\tests\\Q1Calculator.Core.tests\\Q1Calculator.Core.tests.csproj",
       "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\tests\\Q1Calculator.Core.tests\\obj\\",
+      "outputPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\tests\\Q1Calculator.Core.tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1315,8 +1315,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj": {
-              "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj"
+            "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj": {
+              "projectPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj"
             }
           }
         }

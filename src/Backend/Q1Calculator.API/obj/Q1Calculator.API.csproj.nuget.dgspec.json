@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj": {}
+    "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj": {
+    "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj",
+        "projectUniqueName": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj",
         "projectName": "Q1Calculator.API",
-        "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj",
+        "projectPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj",
         "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Backend\\Q1Calculator.API\\obj\\",
+        "outputPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Backend\\Q1Calculator.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj": {
-                "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj"
+              "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj": {
+                "projectPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj": {
+    "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj",
+        "projectUniqueName": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj",
         "projectName": "Q1Calculator.Core",
-        "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj",
+        "projectPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\Q1Calculator.Core.csproj",
         "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\obj\\",
+        "outputPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\CoreDomain\\Q1Calculator.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config"

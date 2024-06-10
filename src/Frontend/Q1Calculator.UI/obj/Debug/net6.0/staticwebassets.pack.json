@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Q1Calculator.UI.bundle.scp.css",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Q1Calculator.UI.bundle.scp.css",
       "PackagePath": "staticwebassets\\Q1Calculator.UI.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\Icons\\icon.svg",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\Icons\\icon.svg",
       "PackagePath": "staticwebassets\\Icons\\icon.svg"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\app.css",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\icons\\calculator.ico",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\icons\\calculator.ico",
       "PackagePath": "staticwebassets\\icons\\calculator.ico"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\index.html",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\site.css",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\site.css",
       "PackagePath": "staticwebassets\\site.css"
     },
     {
-      "Id": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\styles.css",
+      "Id": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\wwwroot\\styles.css",
       "PackagePath": "staticwebassets\\styles.css"
     },
     {

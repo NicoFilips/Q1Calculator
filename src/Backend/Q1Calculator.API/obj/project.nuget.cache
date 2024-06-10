@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fsaajK2FkZuGDJxmdS4JxAX/p1DifytZvqotkjsjoSiiAVPj9E8doWKpOBFpuHdDrSI1Mlfs5UI+AiNAwqBLtQ==",
+  "dgSpecHash": "SkogOpvfLXgScrKEPzP3V+ljq0xn/F5Qf9oKvwr+/k6j5rPA6vumUkPBuAk8esx/83Izq5al4U4nc8oQRZo+VQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj",
+  "projectFilePath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\busin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\busin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

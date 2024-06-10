@@ -3511,11 +3511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\tests\\Q1Calculator.API.tests\\Q1Calculator.API.tests.csproj",
+      "projectUniqueName": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\tests\\Q1Calculator.API.tests\\Q1Calculator.API.tests.csproj",
       "projectName": "Q1Calculator.API.tests",
-      "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\tests\\Q1Calculator.API.tests\\Q1Calculator.API.tests.csproj",
+      "projectPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\tests\\Q1Calculator.API.tests\\Q1Calculator.API.tests.csproj",
       "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\tests\\Q1Calculator.API.tests\\obj\\",
+      "outputPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\tests\\Q1Calculator.API.tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3530,8 +3530,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj": {
-              "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj"
+            "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj": {
+              "projectPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Backend\\Q1Calculator.API\\Q1Calculator.API.csproj"
             }
           }
         }

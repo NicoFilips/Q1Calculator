@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JawNDQAe/oqyst9B+rk/1zuVIR+Ndk9VCR4ua8atxu4ZOqlIl2avRq3wDmXksb/4TpsNSyygz3UXbdcQ/zJblA==",
+  "dgSpecHash": "wRv/almcPyiagmkMiD3gkGe/VlZNqZh6UZgwM2oniIoTsQ9wW6Aw2lYp2xhkznq0U6dzXxhvFEdBZtaNDYJpEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\tests\\Q1Calculator.API.tests\\Q1Calculator.API.tests.csproj",
+  "projectFilePath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\tests\\Q1Calculator.API.tests\\Q1Calculator.API.tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\busin\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\busin\\.nuget\\packages\\fluentassertions\\7.0.0-alpha.4\\fluentassertions.7.0.0-alpha.4.nupkg.sha512",

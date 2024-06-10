@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj": {}
+    "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj": {
+    "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj",
+        "projectUniqueName": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj",
         "projectName": "Q1Calculator.UI",
-        "projectPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj",
+        "projectPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\Q1Calculator.UI.csproj",
         "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\busin\\source\\repos\\bl_Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\",
+        "outputPath": "C:\\Users\\busin\\Desktop\\test\\Q1Calculator\\src\\Frontend\\Q1Calculator.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config"
