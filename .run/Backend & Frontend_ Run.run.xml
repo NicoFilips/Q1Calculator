@@ -1,0 +1,7 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Backend &amp; Frontend: Run" type="CompoundRunConfigurationType">
+    <toRun name="Q1Calculator.API: https" type="LaunchSettings" />
+    <toRun name="Q1Calculator.UI: Run" type="LaunchSettings" />
+    <method v="2" />
+  </configuration>
+</component>
