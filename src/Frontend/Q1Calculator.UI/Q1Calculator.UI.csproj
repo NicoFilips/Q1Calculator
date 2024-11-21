@@ -28,11 +28,11 @@
     <Content Update="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest"/>
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="icons\icon.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+<!--  <ItemGroup>-->
+<!--    <None Update="icons\icon.svg">-->
+<!--      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>-->
+<!--    </None>-->
+<!--  </ItemGroup>-->
 
   <ItemGroup>
     <AddtionalFiles Include="Icons\*.svg"/>
